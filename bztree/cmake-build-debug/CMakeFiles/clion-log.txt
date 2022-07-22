@@ -1,0 +1,13 @@
+"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\LZH\Desktop\ShadowBPTree\bztree\bztree-master
+-- Persistence support: PMDK
+-- GOOGLE_FRAMEWORK is defined, will use glog, gflags and gtest
+-- BUILD_TESTS: not defined
+CMake Error at C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.19/Modules/ExternalProject.cmake:2542 (message):
+  error: could not find git for clone of PMWCAS
+Call Stack (most recent call first):
+  C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.19/Modules/ExternalProject.cmake:3430 (_ep_add_download_command)
+  CMakeLists.txt:71 (ExternalProject_Add)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/LZH/Desktop/ShadowBPTree/bztree/bztree-master/cmake-build-debug/CMakeFiles/CMakeOutput.log".
